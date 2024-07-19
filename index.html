@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXELMOON FOUNDER</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Genshin+Impact&display=swap">
+</head>
+<body>
+    <div class="container">
+        <h1>PIXELMOON FOUNDER</h1>
+        <div class="dashboard">
+            <h1>Dashboard</h2>
+            <div id="balance">$0.361346</div>
+            <p>Your Miner: <span id="miner">1</span></p>
+            <p>Your Pickaxe: <span id="pickaxe">7</span></p>
+            <p>Est Per/Hours: $<span id="perHours">0.001</span>/Hours</p>
+            <button id="toggle-mining" onclick="toggleMining()">stop mining</button>
+            <div>
+            <button class="view-button" onclick="location.href='https://panel.hidencloud.com/server/26f1b0bc'">Check Miner Logs</button>
+            </div>
+            <div>
+                <button class="boost-button" onclick="location.href='boost.html'">boost</button>
+            </div>
+            <hr/>
+        </div>
+        <div class="withdraw">
+            <h2>Withdraw</h2>
+            <label for="wallet-address">Address Wallet USDT (Ton)</label>
+            <input type="text" id="wallet-address" placeholder="input here your address">
+            <label for="amount">Amount</label>
+            <input type="number" id="amount" placeholder="input your amount">
+            <p>Total Gas Fee: $<span id="gas-fee">0.01</span></p>
+            <button onclick="withdraw()">withdraw now</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #36d1dc;
+        background-image: linear-gradient(to right, #5b86e5, #36d1dc);
+        color: white;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* Align items to the top */
+        min-height: 100vh;
+        overflow: auto; /* Allow scrolling */
+    }
+
+    .container {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        max-width: 400px;
+        width: 100%;
+        margin: 20px; /* Add margin for better spacing */
+    }
+
+    .dashboard, .withdraw {
+        margin-top: 20px;
+    }
+
+    label {
+        display: block;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    input {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Arial', sans-serif;
+        color: black; /* Ensure input text is black */
+    }
+
+    button {
+        background-color: #5b86e5;
+        color: white;
+        padding: 10px 20px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-family: 'Arial', sans-serif;
+    }
+
+    button:hover {
+        background-color: #4a70c4;
+    }
+
+    #balance {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    .boost-button {
+        margin-top: 20px;
+        background-color: #ffa500;
+    }
+
+    .boost-button:hover {
+        background-color: #cc8400;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background: #fff;
+        background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    }
+
+    .boost-options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .boost-option {
+        background: rgba(0, 0, 0, 0.3);
+        padding: 10px;
+        border-radius: 5px;
+        width: 100%;
+        max-width: 350px;
+        text-align: left;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .boost-option h3 {
+        margin: 0;
+    }
+
+    .boost-option p {
+        margin: 5px 0;
+    }
+
+    .boost-option button {
+        background-color: #5b86e5;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .boost-option button:hover {
+        background-color: #4a70c4;
+    }
